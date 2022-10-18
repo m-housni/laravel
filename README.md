@@ -21,6 +21,30 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Npm Dev Dependencies
+- axios: Promise based HTTP client for the browser and node.js
+- laravel-vite-plugin:
+- lodash: A modern JavaScript utility library delivering modularity, performance & extras.
+- postcss: Transforming styles with JS plugins
+- vite: Next generation frontend tooling.
+
+## Composer Dependencies
+- Required
+    - "php": "^8.0.2", php is a popular general-purpose scripting language that is especially suited to web development.
+    - "guzzlehttp/guzzle": "^7.2", guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
+    - "laravel/framework": "^9.19", laravel is a web application framework with expressive, elegant syntax.
+    - "laravel/sanctum": "^3.0", laravel sanctum provides a featherweight authentication system for SPAs and simple APIs.
+    - "laravel/tinker": "^2.7", Tinker allows you to interact with your application in a REPL environment. REPL stands for Read-Eval-Print-Loop. It's a simple command-line tool that allows you to execute commands against your application.
+- Dev
+      - "fakerphp/faker": "^1.9.1", Faker is a PHP library that generates fake data for you.
+      - "laravel/pint": "^1.0", Laravel Pint is a package that provides a simple way to create and use value objects in your Laravel application.
+      - "laravel/sail": "^1.0.1", Laravel Sail provides a minimal Docker development environment for Laravel applications.
+      - "mockery/mockery": "^1.4.4", Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework.
+      - "nunomaduro/collision": "^6.1", Collision is a PHP error handler for console/command-line PHP applications.
+      - "phpunit/phpunit": "^9.5.10", PHPUnit is a programmer-oriented testing framework for PHP.
+      - "spatie/laravel-ignition": "^1.0", Laravel Ignition is a beautiful error page for Laravel applications.
+
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
